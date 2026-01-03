@@ -1,0 +1,69 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink'
+    source-dir: 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink'
+  board:
+    name: 'nrf52840dk'
+    path:
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/boards/nordic/nrf52840dk'
+    qualifiers: 'nrf52840'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/dts/bindings'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/boards/nordic/nrf52840dk/nrf52840dk_nrf52840.dts'
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/boards/shields/semtech_lr11xxmb1xxs/semtech_lr1110mb1xxs.overlay'
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink/boards/nrf52840dk_nrf52840.overlay'
+    include-dirs:
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/include'
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/include/zephyr'
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/ambiq/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/atmel/include'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/bouffalolab/include'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/gigadevice/include'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/microchip/include'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/microchip/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/nuvoton/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/nxp/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/stm32/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/modules/hal/ti/dts'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/include'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/include/zephyr'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/common'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/vendor'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/rx'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/x86'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/xtensa'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/sparc'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/riscv'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/posix'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/arm64'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/arm'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts/arc'
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/dts'
+    user-files:
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink/boards/nrf52840dk_nrf52840.overlay'
+  kconfig:
+    files:
+     - 'C:/Users/PMLS/zephyr_workspace/zephyr/boards/nordic/nrf52840dk/nrf52840dk_nrf52840_defconfig'
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink/prj.conf'
+    user-files:
+     - 'C:/Users/PMLS/zephyr_workspace/usp_zephyr/samples/usp/lbm/periodical_uplink/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/PMLS/zephyr-sdk-0.17.4'
+  vendor-specific:
+    nordic:
+      svdfile: 'C:/Users/PMLS/zephyr_workspace/modules/hal/nordic/nrfx/mdk/nrf52840.svd'
+  zephyr:
+    version: '4.2.0'
+    zephyr-base: 'C:/Users/PMLS/zephyr_workspace/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\PMLS\zvenv\zephyr310\Scripts\west build -p always -b nrf52840dk/nrf52840 --shield semtech_lr1110mb1xxs'
+  topdir: 'C:\Users\PMLS\zephyr_workspace'
+  version: '1.5.0'

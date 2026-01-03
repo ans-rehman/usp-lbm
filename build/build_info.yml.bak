@@ -1,0 +1,5 @@
+west:
+  command: C:\Users\PMLS\zvenv\zephyr310\Scripts\west build -p always -b nrf52840dk/nrf52840
+    --shield semtech_lr1110mb1xxs
+  topdir: C:\Users\PMLS\zephyr_workspace
+  version: 1.5.0

@@ -1,0 +1,1 @@
+"mcuboot":"C:/Users/PMLS/zephyr_workspace/bootloader/mcuboot":"C:/Users/PMLS/zephyr_workspace/bootloader/mcuboot/boot/zephyr/sysbuild"
